@@ -1,0 +1,89 @@
+#capa #fundo {
+  background-color: #D4EED3;
+  /*cor de fundo*/
+  height: 175vh;
+  /*calculo matematico*/
+  display: flex;
+  /*deixa em linhas*/
+  flex-direction: column;
+  /*direciona para colunas*/
+  align-items: center;
+  /*align é em vertical (em linhas), porém quando muda para o display flex colunas ele inverte de posição e passa a ser na horizontal*/
+  justify-content: center;
+  /*alinhar no centro no eixo y*/
+  background-repeat: no-repeat;
+  /*para a imagem não repetir*/
+  background-size: cover;
+  /*ocupar todo o espaçamento da sua tela*/
+  background-position: center center;
+  /*centralizar a imagem e ocupar toda a tela*/
+  top: 200PX;
+}
+
+.sms {
+  position: absolute;
+  width: 1000px;
+  height: 500px;
+  left: 50%;
+  top: 115%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 250, 250, 0.47);
+  border-radius: 30px;
+}
+
+.texto {
+  position: absolute;
+  width: 436px;
+  height: 95px;
+  left: 130px;
+  top: 110px;
+
+
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 70px;
+  text-align: left;
+
+  color: #000000;
+
+}
+
+.textoum {
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  left: 130px;
+  top: 180px;
+
+
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 70px;
+  text-align: left;
+
+  color: #000000;
+
+}
+
+.ok {
+
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  right: 60px;
+  top: 380px;
+
+  background: #2D486D;
+  border-radius: 90px;
+  border: none;
+  color: white;
+
+  font-family: 'Abel';
+  font-size: 20px;
+
+
+}
